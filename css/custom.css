@@ -1,0 +1,66 @@
+﻿
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Adds space between icons */
+    align-items: center;
+}
+
+/* Individual Social Icons */
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* Reduced size */
+    height: 30px; /* Reduced size */
+    background: #333; /* Dark background */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Makes icons circular */
+    text-decoration: none;
+    font-size: 14px; /* Smaller icon size */
+    transition: all 0.3s ease-in-out;
+}
+
+
+    /* Hover Effects */
+    .social-icon:hover {
+        background: #ff9800; /* Change color on hover */
+        transform: scale(1.1); /* Slight zoom effect */
+    }
+
+    /* Specific Colors for Each Icon */
+    .social-icon.facebook {
+        background: #1877F2;
+    }
+
+    .social-icon.twitter {
+        background: #1DA1F2;
+    }
+
+    .social-icon.flickr {
+        background: #ff0084;
+    }
+
+    /* Change Icon Colors on Hover */
+    .social-icon.facebook:hover {
+        background: #0d65d9;
+    }
+
+    .social-icon.twitter:hover {
+        background: #0b7dbd;
+    }
+
+    .social-icon.flickr:hover {
+        background: #e60073;
+    }
+
+    .social-icon.whatsapp {
+        background: #25D366;
+    }
+
+        .social-icon.whatsapp:hover {
+            background: #1ebe57;
+        }
+
+
+

@@ -1,0 +1,227 @@
+/* General Header Styling */
+.site-header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.site-branding .logo-img {
+    height: 60px;
+    width: auto;
+}
+
+/* Navigation Menu */
+.main-menu .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-menu .navigation li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.main-menu .navigation li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a2955;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.main-menu .navigation li a:hover {
+    color: #c28f44;
+}
+
+/* Dropdown Menu */
+.main-menu .navigation li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu .navigation li:hover ul {
+    display: block;
+}
+
+.main-menu .navigation li ul li {
+    padding: 8px 20px;
+}
+
+.main-menu .navigation li ul li a {
+    color: #1a2955;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.main-menu .navigation li ul li a:hover {
+    color: #c28f44;
+}
+
+/* Social Icons */
+.pbmit-social-links-wrapper .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.pbmit-social-links-wrapper .social-icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #1a2955;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pbmit-social-links-wrapper .social-icons li a:hover {
+    background-color: #c28f44;
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Button Styling */
+.pbmit-header-btn .pbmit-btn {
+    background-color: #c28f44;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pbmit-header-btn .pbmit-btn:hover {
+    background-color: #1a2955;
+}
+
+/* General Header Styling */
+.site-header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.site-branding .logo-img {
+    height: 60px;
+    width: auto;
+}
+
+/* Navigation Menu */
+.main-menu .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+    .main-menu .navigation li {
+        position: relative;
+        margin: 0 15px;
+    }
+
+        .main-menu .navigation li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #1a2955;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+            .main-menu .navigation li a:hover {
+                color: #c28f44;
+            }
+
+        /* Dropdown Menu */
+        .main-menu .navigation li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #ffffff;
+            list-style: none;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-menu .navigation li:hover ul {
+            display: block;
+        }
+
+        .main-menu .navigation li ul li {
+            padding: 8px 20px;
+        }
+
+            .main-menu .navigation li ul li a {
+                color: #1a2955;
+                font-size: 14px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .main-menu .navigation li ul li a:hover {
+                    color: #c28f44;
+                }
+
+/* Social Icons */
+.pbmit-social-links-wrapper .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+    .pbmit-social-links-wrapper .social-icons li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #1a2955;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+        .pbmit-social-links-wrapper .social-icons li a:hover {
+            background-color: #c28f44;
+        }
+
+/* WhatsApp Icon */
+.whatsapp-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Button Styling */
+.pbmit-header-btn .pbmit-btn {
+    background-color: #c28f44;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .pbmit-header-btn .pbmit-btn:hover {
+        background-color: #1a2955;
+    }
